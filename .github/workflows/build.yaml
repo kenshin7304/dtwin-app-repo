@@ -9,7 +9,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout front-end source code
+      - name: Checkout node.js source code
         uses: actions/checkout@v2
 
       - name: Check Node v
